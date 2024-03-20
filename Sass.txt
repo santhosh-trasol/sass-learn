@@ -1,0 +1,19 @@
+Required tools:
+
+Node js , npm packages
+
+step 1: To Install
+
+	 npm install -g sass  --(for install)
+
+step 2: To version
+
+	sass --version
+
+step 3: For compile scss to css
+
+	sass (.scss file) (.css file) 
+
+step 4: Checking compile 
+
+	sass -w (.scss file) (.css file)   ---or---   live sass compiler extension
