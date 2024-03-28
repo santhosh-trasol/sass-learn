@@ -1,7 +1,44 @@
-h2 {
-  text-align: center;
-  font-size: 11rem;
-  text-transform: uppercase;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: #43a4ff;
+}
+
+button {
+  all: unset;
+}
+
+.first-ui {
+  padding: 50px 0px;
+}
+
+.ui-box {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.ui-box p {
+  font-weight: 600;
+  color: green;
+}
+.ui-box .contact-btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: red;
+  color: #fff;
+  border: 2px solid transparent;
+}
+.ui-box .contact-btn:hover {
+  border-color: red;
+  color: red;
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */

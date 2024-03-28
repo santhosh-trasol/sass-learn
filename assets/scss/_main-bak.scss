@@ -31,24 +31,24 @@ button {
     padding: 20px;
     background-color: $white;
     border-radius: 10px;
+}
 
-    p {
-        font-weight: 600;
-        color: map-get($alert-colors, 'success');
-    }
+.ui-box p {
+    font-weight: 600;
+    color: map-get($alert-colors, 'success');
+}
 
-    .contact-btn {
-        padding: 5px 10px;
-        border-radius: 5px;
-        font-weight: 600;
-        background-color: $red;
-        color: #fff;
-        border: 2px solid transparent;
-    }
+.contact-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: $red;
+    color: #fff;
+    border: 2px solid transparent;
+}
 
-    .contact-btn:hover {
-        border-color: $red;
-        color: $red;
-        background-color: #fff;
-    }
+.contact-btn:hover {
+    border-color: $red;
+    color: $red;
+    background-color: #fff;
 }
